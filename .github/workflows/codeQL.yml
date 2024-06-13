@@ -8,7 +8,7 @@ jobs:
   CodeQL-Build:
     strategy:
       matrix:
-        language: ['javascript', 'python']
+        language: ['python']
     runs-on: ubuntu-latest
 
     permissions:
