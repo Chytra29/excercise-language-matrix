@@ -6,6 +6,9 @@ on:
 
 jobs:
   CodeQL-Build:
+    strategy:
+      matrix:
+        language: ['javascript', 'python']
     runs-on: ubuntu-latest
 
     permissions:
